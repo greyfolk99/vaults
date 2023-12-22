@@ -18,14 +18,14 @@ TypeScript를 사용하면 키 오류는 잡아낼 수 있음
 
 ```typescript
 type Kwargs  
-	= { "yyyy" : string , "mm" : string, "dd" : string }  
+	= { "yyyy" : string , "mm" : string }  
 
 const format  
 	: `{${keyof Kwargs}}_{${keyof Kwargs}}` // String Literal Type  
 	= "{yyyy}_{mm}"  
 const kwargs  
 	: Kwargs  
-	= { "yyyy" : "2022" , "mm" : "08", "dd" : "01" }  
+	= { "yyyy" : "2022" , "mm" : "08" }  
 
 const parsed = format.replace(/{(.*?)}/g, (match, key) => (kwargs as any)[key]) 
 
