@@ -1,6 +1,0 @@
-
-
-# Headless CMS
-## [[Strapi]]
-
-
