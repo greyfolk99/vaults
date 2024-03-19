@@ -10,7 +10,7 @@ WebGL 은 종종 3D API로 여겨진다.
 따라서 GPU에서 실행되는 코드를 제공해야 한다.  
 해당 코드는 함수 쌍 형태로 제공해야 한다.
 
-두 함수는 [[vertex shader]]와[[fragment shader]] 라고 불리고 C/C++ 처럼 엄격한 타입을 가지는 [[GLSL (Graphics Library Shader Language)]] 작성**되어 있다.
+두 함수는 [[vertex shader]]와 [[fragment shader]] 라고 불리고 C/C++ 처럼 엄격한 타입을 가지는 [[GLSL (Graphics Library Shader Language)]] 작성**되어 있다.
 
 이 **두 개를 합쳐 프로그램** 이라고 부른다.
 
@@ -29,3 +29,5 @@ WebGL은 함수가 출력하는 위치를 기반으로 점, 선, 삼각형 등�
 
 이러한 함수가 접근하는 모든 데이터는 GPU 에 제공되어야 한다.  
 Shader가 데이터를 받을 수 있는 방법에는 네 가지가 있다.
+
+

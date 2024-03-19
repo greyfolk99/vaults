@@ -1,8 +1,10 @@
+https://elixirschool.com/ko/lessons/basics/basics
 
 
+대화형 모드
 ```elixir
-; Elixir로 기본적인 산술 연산을 수행할 수 있다.
-iex> 1 + 2
+iex> 
+
 
 ```
 
